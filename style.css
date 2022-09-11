@@ -1,0 +1,65 @@
+.header{
+    background-color: rgb(68, 65, 65);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding:30px;
+    color:white;
+    font-family: 'AvaraBold';
+    
+    
+}
+.container{
+    position:relative;
+    background-color: rgb(159, 163, 163);
+    height:100vh;
+    border: 0.5px solid black;
+}
+#pc1{
+    font-family: 'AvaraBold';
+    font-size:50px;
+    text-align: center;
+    margin-top: 60px;
+    color:white;
+
+}
+#pc2{
+    font-family: 'AvaraBold';
+    font-size:50px;
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+
+}
+.box{
+    width:600px;
+    height:600px;
+    position:absolute;
+    top: 225px;
+    left:700px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.cell{
+    border:2px solid rgb(68, 65, 65);
+}
+.cell:hover{
+    background-color: gainsboro;
+    border:4px solid rgb(58, 54, 54);
+}
+#restart{
+    position: absolute;
+    top:870px;
+    left:900px;
+    padding:20px;
+    background-color:rgb(58, 54, 54);
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family:'AvaraBold';
+    border-radius: 20px;
+}
+#restart:hover{
+    background-color: orange;
+}
