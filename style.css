@@ -63,3 +63,6 @@
 #restart:hover{
     background-color: orange;
 }
+.disabled {
+    pointer-events:none;
+}
